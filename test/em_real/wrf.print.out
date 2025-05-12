@@ -1,0 +1,48 @@
+ starting wrf task            1  of            3
+ starting wrf task            0  of            3
+ starting wrf task            2  of            3
+taskid: 0 hostname: 81bdb4ccc651
+Quilting with   1 groups of   0 I/O tasks.
+ Ntasks in X            1 , ntasks in Y            3
+  Domain # 1: dx = 30000.000 m
+WRF V4.2 MODEL
+ *************************************
+ Parent domain
+ ids,ide,jds,jde            1          74           1          61
+ ims,ime,jms,jme           -4          79          -4          27
+ ips,ipe,jps,jpe            1          74           1          20
+ *************************************
+DYNAMICS OPTION: Eulerian Mass Coordinate
+   alloc_space_field: domain            1 ,              74964668  bytes allocated
+  med_initialdata_input: calling input_input
+   Input data is acceptable to use: wrfinput_d01
+ CURRENT DATE          = 2000-01-24_12:00:00
+ SIMULATION START DATE = 2000-01-24_12:00:00
+Timing for processing wrfinput file (stream 0) for domain        1:    0.03927 elapsed seconds
+Max map factor in domain 1 =  1.03. Scale the dt in the model accordingly.
+ D01: Time step                              =    180.000000      (s)
+ D01: Grid Distance                          =    30.0000000      (km)
+ D01: Grid Distance Ratio dt/dx              =    6.00000000      (s/km)
+ D01: Ratio Including Maximum Map Factor     =    6.16505098      (s/km)
+ D01: NML defined reasonable_time_step_ratio =    6.00000000
+INPUT LandUse = "USGS"
+ LANDUSE TYPE = "USGS" FOUND          33  CATEGORIES           2  SEASONS WATER CATEGORY =           16  SNOW CATEGORY =           24
+   Initializing OML with HML0 =    50.0000000
+Timing for Writing wrfout_d01_2000-01-24_12:00:00 for domain        1:    0.12159 elapsed seconds
+d01 2000-01-24_12:00:00  Input data is acceptable to use: wrfbdy_d01
+Timing for processing lateral boundary for domain        1:    0.03438 elapsed seconds
+ Tile Strategy is not specified. Assuming 1D-Y
+WRF TILE   1 IS      1 IE     74 JS      1 JE     20
+WRF NUMBER OF TILES =   1
+Timing for main: time 2000-01-24_12:03:00 on domain   1:    0.71950 elapsed seconds
+Timing for main: time 2000-01-24_12:06:00 on domain   1:    0.29318 elapsed seconds
+Timing for main: time 2000-01-24_12:09:00 on domain   1:    0.28545 elapsed seconds
+Timing for main: time 2000-01-24_12:12:00 on domain   1:    0.29918 elapsed seconds
+Timing for main: time 2000-01-24_12:15:00 on domain   1:    0.28712 elapsed seconds
+Timing for main: time 2000-01-24_12:18:00 on domain   1:    0.29797 elapsed seconds
+Timing for main: time 2000-01-24_12:21:00 on domain   1:    0.29167 elapsed seconds
+Timing for main: time 2000-01-24_12:24:00 on domain   1:    0.57371 elapsed seconds
+Timing for main: time 2000-01-24_12:27:00 on domain   1:    0.28778 elapsed seconds
+Timing for main: time 2000-01-24_12:30:00 on domain   1:    0.29971 elapsed seconds
+Timing for Writing wrfout_d01_2000-01-24_12:30:00 for domain        1:    0.03046 elapsed seconds
+d01 2000-01-24_12:30:00 wrf: SUCCESS COMPLETE WRF

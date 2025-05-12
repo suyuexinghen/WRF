@@ -1,0 +1,1 @@
+/wrf/Data/em_real/met_em.d01.2013-02-06_12:00:00.nc

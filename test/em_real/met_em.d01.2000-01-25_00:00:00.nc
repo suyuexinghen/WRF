@@ -1,0 +1,1 @@
+/wrf/Data/em_real/met_em.d01.2000-01-25_00:00:00.nc
